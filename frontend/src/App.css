@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/631/332/8/gradient-minimalism-simple-blue-background-wallpaper-preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
